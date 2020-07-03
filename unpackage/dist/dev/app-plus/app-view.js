@@ -86,9 +86,9 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/*!**************************************************!*\
-  !*** F:/Front-Dev/HB Projects/RedCherry/main.js ***!
-  \**************************************************/
+/*!****************************************************!*\
+  !*** F:/Front-Dev/HB Projects/HongYingTao/main.js ***!
+  \****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -115,9 +115,9 @@ if (typeof plus !== 'undefined') {
 
 /***/ }),
 /* 1 */
-/*!*********************************************************************!*\
-  !*** F:/Front-Dev/HB Projects/RedCherry/pages.json?{"type":"view"} ***!
-  \*********************************************************************/
+/*!***********************************************************************!*\
+  !*** F:/Front-Dev/HB Projects/HongYingTao/pages.json?{"type":"view"} ***!
+  \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -140,9 +140,9 @@ __definePage('pages/index/index', function () {return Vue.extend(__webpack_requi
 
 /***/ }),
 /* 2 */
-/*!****************************************************************************!*\
-  !*** F:/Front-Dev/HB Projects/RedCherry/pages/index/index.vue?mpType=page ***!
-  \****************************************************************************/
+/*!******************************************************************************!*\
+  !*** F:/Front-Dev/HB Projects/HongYingTao/pages/index/index.vue?mpType=page ***!
+  \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -180,9 +180,9 @@ component.options.__file = "pages/index/index.vue"
 
 /***/ }),
 /* 3 */
-/*!**********************************************************************************************************!*\
-  !*** F:/Front-Dev/HB Projects/RedCherry/pages/index/index.vue?vue&type=template&id=2be84a3c&mpType=page ***!
-  \**********************************************************************************************************/
+/*!************************************************************************************************************!*\
+  !*** F:/Front-Dev/HB Projects/HongYingTao/pages/index/index.vue?vue&type=template&id=2be84a3c&mpType=page ***!
+  \************************************************************************************************************/
 /*! exports provided: render, staticRenderFns, recyclableRender, components */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -201,9 +201,9 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 /* 4 */
-/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--16-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/filter-modules-template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/view/style.js!F:/Front-Dev/HB Projects/RedCherry/pages/index/index.vue?vue&type=template&id=2be84a3c&mpType=page ***!
-  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--16-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/filter-modules-template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/view/style.js!F:/Front-Dev/HB Projects/HongYingTao/pages/index/index.vue?vue&type=template&id=2be84a3c&mpType=page ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns, recyclableRender, components */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -234,8 +234,16 @@ var render = function() {
         ],
         1
       ),
-      _c("v-uni-view", { staticClass: _vm._$g(3, "sc"), attrs: { _i: 3 } }),
-      _c("v-uni-view", { staticClass: _vm._$g(4, "sc"), attrs: { _i: 4 } })
+      _c(
+        "v-uni-view",
+        { staticClass: _vm._$g(3, "sc"), attrs: { _i: 3 } },
+        [
+          _c("v-uni-view", { staticClass: _vm._$g(4, "sc"), attrs: { _i: 4 } }),
+          _c("v-uni-view", { staticClass: _vm._$g(5, "sc"), attrs: { _i: 5 } })
+        ],
+        1
+      ),
+      _c("v-uni-view", { staticClass: _vm._$g(6, "sc"), attrs: { _i: 6 } })
     ],
     1
   )
@@ -248,9 +256,9 @@ render._withStripped = true
 
 /***/ }),
 /* 5 */
-/*!****************************************************************************************************!*\
-  !*** F:/Front-Dev/HB Projects/RedCherry/pages/index/index.vue?vue&type=script&lang=js&mpType=page ***!
-  \****************************************************************************************************/
+/*!******************************************************************************************************!*\
+  !*** F:/Front-Dev/HB Projects/HongYingTao/pages/index/index.vue?vue&type=script&lang=js&mpType=page ***!
+  \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -263,9 +271,9 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 /* 6 */
-/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/view/script.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/using-components.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/view/style.js!F:/Front-Dev/HB Projects/RedCherry/pages/index/index.vue?vue&type=script&lang=js&mpType=page ***!
-  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/view/script.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/using-components.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/view/style.js!F:/Front-Dev/HB Projects/HongYingTao/pages/index/index.vue?vue&type=script&lang=js&mpType=page ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -283,9 +291,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 7 */
-/*!************************************************************************************************************!*\
-  !*** F:/Front-Dev/HB Projects/RedCherry/pages/index/index.vue?vue&type=style&index=0&lang=css&mpType=page ***!
-  \************************************************************************************************************/
+/*!**************************************************************************************************************!*\
+  !*** F:/Front-Dev/HB Projects/HongYingTao/pages/index/index.vue?vue&type=style&index=0&lang=css&mpType=page ***!
+  \**************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -298,9 +306,9 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 /* 8 */
-/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/app-vue-style-loader??ref--6-oneOf-1-0!./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-1-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-2!./node_modules/postcss-loader/src??ref--6-oneOf-1-3!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/view/style.js!F:/Front-Dev/HB Projects/RedCherry/pages/index/index.vue?vue&type=style&index=0&lang=css&mpType=page ***!
-  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/app-vue-style-loader??ref--6-oneOf-1-0!./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-1-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-2!./node_modules/postcss-loader/src??ref--6-oneOf-1-3!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/view/style.js!F:/Front-Dev/HB Projects/HongYingTao/pages/index/index.vue?vue&type=style&index=0&lang=css&mpType=page ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -312,15 +320,15 @@ if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
 var add = __webpack_require__(/*! ../../../../HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/app-vue-style-loader/lib/addStylesClient.js */ 11).default
-var update = add("0ea6adaf", content, false, {"sourceMap":false,"shadowMode":false});
+var update = add("d0b78944", content, false, {"sourceMap":false,"shadowMode":false});
 // Hot Module Replacement
 if(false) {}
 
 /***/ }),
 /* 9 */
-/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-1-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-2!./node_modules/postcss-loader/src??ref--6-oneOf-1-3!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/view/style.js!F:/Front-Dev/HB Projects/RedCherry/pages/index/index.vue?vue&type=style&index=0&lang=css&mpType=page ***!
-  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-1-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-2!./node_modules/postcss-loader/src??ref--6-oneOf-1-3!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/view/style.js!F:/Front-Dev/HB Projects/HongYingTao/pages/index/index.vue?vue&type=style&index=0&lang=css&mpType=page ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -328,7 +336,7 @@ if(false) {}
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../HBuilderX/plugins/uniapp-cli/node_modules/css-loader/dist/runtime/api.js */ 10);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "uni-view{\r\n\t\tborder: #007AFF;\r\n\t\tborder-style: solid;\r\n\t\tborder-width: thin;\n}\n.logo {\r\n\t\theight: 200rpx;\r\n\t\twidth: 200rpx;\r\n\t\tmargin-top: 200rpx;\r\n\t\tmargin-left: auto;\r\n\t\tmargin-right: auto;\r\n\t\tmargin-bottom: 50rpx;\n}\n.text-area {\r\n\t\tdisplay: -webkit-box;\r\n\t\tdisplay: -webkit-flex;\r\n\t\tdisplay: flex;\r\n\t\t-webkit-box-pack: center;\r\n\t\t-webkit-justify-content: center;\r\n\t\t        justify-content: center;\n}\n.title {\r\n\t\tfont-size: 36rpx;\r\n\t\tcolor: #8f8f94;\n}\n.content>.top {\r\n\t\tdisplay: -webkit-box;\r\n\t\tdisplay: -webkit-flex;\r\n\t\tdisplay: flex;\r\n\t\t-webkit-box-orient: vertical;\r\n\t\t-webkit-box-direction: normal;\r\n\t\t-webkit-flex-direction: flex;\r\n\t\t        flex-direction: flex;\r\n\t\t\r\n\t\t-webkit-box-align: center;\r\n\t\t\r\n\t\t-webkit-align-items: center;\r\n\t\t\r\n\t\t        align-items: center;\r\n\t\t-webkit-box-pack: center;\r\n\t\t-webkit-justify-content: center;\r\n\t\t        justify-content: center;\r\n\t\t\r\n\t\theight: 25%;\n}\n.content>.center{\r\n\t\theight: 70%;\n}\n.content>.center>.top{\r\n\t\theight: 10%;\n}\n.context>.center>.bottom{\r\n\t\theight: 90%;\n}\n.context>.bottom{\r\n\t\theight: 5%;\n}\n.step{\r\n\t\tfont-size: 72rpx;\r\n\t\t-webkit-box-align: center;\r\n\t\t-webkit-align-items: center;\r\n\t\t        align-items: center;\n}\r\n\r\n\t/*引入公共样式*/ \r\n\r\n", ""]);
+exports.push([module.i, "uni-view{\r\n\t\tborder: #007AFF;\r\n\t\tborder-style: solid;\r\n\t\tborder-width: thin;\n}\n.logo {\r\n\t\theight: 200rpx;\r\n\t\twidth: 200rpx;\r\n\t\tmargin-top: 200rpx;\r\n\t\tmargin-left: auto;\r\n\t\tmargin-right: auto;\r\n\t\tmargin-bottom: 50rpx;\n}\n.text-area {\r\n\t\tdisplay: -webkit-box;\r\n\t\tdisplay: -webkit-flex;\r\n\t\tdisplay: flex;\r\n\t\t-webkit-box-pack: center;\r\n\t\t-webkit-justify-content: center;\r\n\t\t        justify-content: center;\n}\n.title {\r\n\t\tfont-size: 36rpx;\r\n\t\tcolor: #8f8f94;\n}\n.content {\r\n\t\tdisplay: -webkit-box;\r\n\t\tdisplay: -webkit-flex;\r\n\t\tdisplay: flex;\r\n\t\t-webkit-box-orient: vertical;\r\n\t\t-webkit-box-direction: normal;\r\n\t\t-webkit-flex-direction: column;\r\n\t\t        flex-direction: column;\n}\n.content>.top {\r\n\t\tdisplay: -webkit-box;\r\n\t\tdisplay: -webkit-flex;\r\n\t\tdisplay: flex;\r\n\t\t-webkit-box-orient: vertical;\r\n\t\t-webkit-box-direction: normal;\r\n\t\t-webkit-flex-direction: flex;\r\n\t\t        flex-direction: flex;\r\n\t\t\r\n\t\t-webkit-box-align: center;\r\n\t\t\r\n\t\t-webkit-align-items: center;\r\n\t\t\r\n\t\t        align-items: center;\r\n\t\t-webkit-box-pack: center;\r\n\t\t-webkit-justify-content: center;\r\n\t\t        justify-content: center;\r\n\t\t\r\n\t\theight: 200rpx;\n}\n.content>.center{\r\n\t\theight: 950rpx;\r\n\t\t/* border-color: #4CD964; */\n}\n.content>.center>.top{\r\n\t\theight: 10%;\r\n\t\t/* border-color: #000; */\n}\n.content>.center>.bottom{\r\n\t\theight: 90%;\r\n\t\t/* border-color: #000; */\n}\n.content>.bottom{\r\n\t\t\r\n\t\tposition: absolute;\r\n\t\tbottom: 0;\r\n\t\tleft: 0;\r\n\t\twidth: calc(100% - 20rpx);\r\n\t\theight: 100rpx;\r\n\t\tborder-color: #999999;\r\n\t\tborder-width: 10rpx;\n}\n.step{\r\n\t\tfont-size: 72rpx;\r\n\t\t-webkit-box-align: center;\r\n\t\t-webkit-align-items: center;\r\n\t\t        align-items: center;\n}\r\n\r\n\t/*引入公共样式*/ \r\n\r\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -871,9 +879,9 @@ function normalizeComponent (
 
 /***/ }),
 /* 14 */
-/*!***********************************************************************************!*\
-  !*** F:/Front-Dev/HB Projects/RedCherry/App.vue?vue&type=style&index=0&lang=css& ***!
-  \***********************************************************************************/
+/*!*************************************************************************************!*\
+  !*** F:/Front-Dev/HB Projects/HongYingTao/App.vue?vue&type=style&index=0&lang=css& ***!
+  \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -886,9 +894,9 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 /* 15 */
-/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/app-vue-style-loader??ref--6-oneOf-1-0!./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-1-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-2!./node_modules/postcss-loader/src??ref--6-oneOf-1-3!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/view/style.js!F:/Front-Dev/HB Projects/RedCherry/App.vue?vue&type=style&index=0&lang=css& ***!
-  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/app-vue-style-loader??ref--6-oneOf-1-0!./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-1-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-2!./node_modules/postcss-loader/src??ref--6-oneOf-1-3!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/view/style.js!F:/Front-Dev/HB Projects/HongYingTao/App.vue?vue&type=style&index=0&lang=css& ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -900,15 +908,15 @@ if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
 var add = __webpack_require__(/*! ../../HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/app-vue-style-loader/lib/addStylesClient.js */ 11).default
-var update = add("d6c9f800", content, false, {"sourceMap":false,"shadowMode":false});
+var update = add("7b4e3d22", content, false, {"sourceMap":false,"shadowMode":false});
 // Hot Module Replacement
 if(false) {}
 
 /***/ }),
 /* 16 */
-/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-1-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-2!./node_modules/postcss-loader/src??ref--6-oneOf-1-3!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/view/style.js!F:/Front-Dev/HB Projects/RedCherry/App.vue?vue&type=style&index=0&lang=css& ***!
-  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-1-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-2!./node_modules/postcss-loader/src??ref--6-oneOf-1-3!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/view/style.js!F:/Front-Dev/HB Projects/HongYingTao/App.vue?vue&type=style&index=0&lang=css& ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -916,7 +924,7 @@ if(false) {}
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../HBuilderX/plugins/uniapp-cli/node_modules/css-loader/dist/runtime/api.js */ 10);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/*每个页面公共css */\n", ""]);
+exports.push([module.i, "\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n/* 解决头条小程序组件内引入字体不生效的问题 */\r\n\r\n\r\n\r\n\r\n\r\n\r\n", ""]);
 // Exports
 module.exports = exports;
 
