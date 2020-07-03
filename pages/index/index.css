@@ -1,0 +1,55 @@
+view{
+		border: #007AFF;
+		border-style: solid;
+		border-width: thin;
+	}
+
+	.logo {
+		height: 200rpx;
+		width: 200rpx;
+		margin-top: 200rpx;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 50rpx;
+	}
+
+	.text-area {
+		display: flex;
+		justify-content: center;
+	}
+
+	.title {
+		font-size: 36rpx;
+		color: #8f8f94;
+	}
+	
+	.content>.top {
+		display: flex;
+		flex-direction: flex;
+		
+		align-items: center;
+		justify-content: center;
+		
+		height: 25%;
+		
+	}
+	.content>.center{
+		height: 70%;
+	}
+	
+	.content>.center>.top{
+		height: 10%;
+	}
+	
+	.context>.center>.bottom{
+		height: 90%;
+	}
+	
+	.context>.bottom{
+		height: 5%;
+	}
+	
+	.step{
+		font-size: 72rpx;
+		align-items: center;
+	}
