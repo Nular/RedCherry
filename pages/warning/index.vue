@@ -1,38 +1,37 @@
 <template>
 	<view class="content">
-	
-	<view v-for="msg in messages" class="entry">
-		<view class="head">
-			<image :src="msg.head" mode="aspectFill" />
+	<view v-for="warning in warnings" class="entry">
+		<view class="top">
+			<view class="head">
+				<image :src="warning.head" mode="aspectFill" />
+			</view>
+			<view class="user">{{ warning.user }}</view>
+			<view class="time">{{ warning.time }}</view>
 		</view>
 		
-		<view class="center">
-			
-			<view class="sender">{{msg.sender}}</view>
-			<view class="content">{{msg.content}}</view>
-			
+		<view class="bottom">
+			<view class="tip"><strong>{{ warning.tip }}</strong></view>
+			<view class="message">{{ warning.message }}</view>
 		</view>
-		
-		<view class="time">{{ msg.time }}</view>
 	</view>
-		
 	</view>
 </template>
 
 <script>
 	
 	// message传值 例:
-	var massage = {
-		content: "今天天气真好吖hhhhhhh",
+	var warning = {
+		tip:"体温预警",
+		message: "您体温19°C，体温偏低",
+		user: "病者A",
 		time: new Date().toLocaleTimeString(),
-		sender: "天气问候者",
 		head: "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3836099653,977060296&fm=26&gp=0.jpg"
 	}
 	export default {
 		data() {
 			return {
 				step: 2333,
-				messages: [ massage , massage , massage , massage ]
+				warnings: [ warning , warning , warning , warning ]
 			}
 		},
 		onLoad() {
@@ -49,38 +48,34 @@
 		display: flex;
 		flex-direction: column;
 	}
-	.content>.entry{
+	.entry{
 		display: flex;
-		flex-direction: row;
+		flex-direction: column;
 		
 		width: 100%;
-		height: 120rpx;
-		
+		height: 200rpx;
 	}
-	.content>.entry>.head{
-		height: 120rpx;
-		width: 120rpx;
+	.entry>.top{
+		display: flex;
+		align-items: center;
+		/* height: calc(50% - 20rpx); */
+		height: 50%;
+		width: 100%;
 	}
-	.content>.entry>.head>image{
-		height: 120rpx;
-		width: 120rpx;
+	.entry>.top>.head{
+		height: 100rpx;
+		width: 100rpx;
 	}
-	.content>.entry>.center{
-		height: 120rpx;
-		width: calc(100% - 120rpx - 180rpx);
+	.entry>.top>.head>image{
+		height: 100rpx;
+		width: 100rpx;
 	}
-	.content>.entry>.center>.sender{
-		height: calc(50% - 20rpx);
-		margin-top: 20rpx;
+	.entry>.top>.user{
+		width: calc(100% - 100rpx - 180rpx);
 		font-size: 36rpx;
 		color: #007AFF;
 	}
-	.content>.entry>.center>.content{
-		height: calc(50% - 10rpx);
-		font-size: 24rpx;
-		margin-top: 10rpx;
-	}
-	.content>.entry>.time{
+	.entry>.top>.time{
 		height: 120rpx;
 		width: 180rpx;
 		
@@ -90,4 +85,18 @@
 		display: flex;
 		align-items: center;
 	}
+	.entry>.bottom{
+		display: flex;
+		height: calc(50% - 10rpx);
+		width: 100%;
+		padding-left: 18rpx;
+		font-size: 24rpx;
+	}
+	.entry>.bottom>.tip{
+		color: #DD524D;
+	}
+	.entry>.bottom>.message{
+		padding-left: 36rpx;
+	}
+	
 </style>
