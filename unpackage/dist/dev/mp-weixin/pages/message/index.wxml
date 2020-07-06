@@ -1,0 +1,1 @@
+<view class="content"><block wx:for="{{messages}}" wx:for-item="msg" wx:for-index="__i0__"><view class="entry"><view class="head"><image src="{{msg.head}}" mode="aspectFill"></image></view><view class="center"><view class="sender">{{msg.sender}}</view><view class="content">{{msg.content}}</view></view><view class="time">{{msg.time}}</view></view></block></view>
