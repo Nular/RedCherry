@@ -1,14 +1,40 @@
 {
-    "pages": [
-        "pages/index/index"
-    ],
-    "subPackages": [],
-    "window": {
-        "navigationBarTextStyle": "white",
-        "navigationBarTitleText": "uni-app",
-        "navigationBarBackgroundColor": "#007AFF",
-        "backgroundColor": "#FFFFFF"
-    },
-    "usingComponents": {},
-    "sitemapLocation": "sitemap.json"
+  "pages": [
+    "pages/index/index",
+    "pages/message/index",
+    "pages/warning/index",
+    "pages/mine/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#007AFF",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#cbf8fc",
+    "selectedColor": "#ffffff",
+    "borderStyle": "black",
+    "backgroundColor": "#007AFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/message/index",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/warning/index",
+        "text": "预警"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
 }

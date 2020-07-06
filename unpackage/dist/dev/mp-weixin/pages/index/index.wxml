@@ -1,1 +1,1 @@
-<view class="content"><view class="top"><text class="step">{{''+step+'步'}}</text></view><view class="center"><view class="top"></view><view class="bottom"></view></view><view class="bottom"></view></view>
+<view class="content"><view class="top"><text class="step">{{''+step+'步'}}</text></view><view class="center"><view class="top"></view><view class="bottom"></view></view></view>
